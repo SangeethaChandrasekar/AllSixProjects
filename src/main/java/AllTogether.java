@@ -5,6 +5,5 @@ public class AllTogether {
         System.out.println("--------------------------------------");
         BiggestNumber.BiggestNumber();
         System.out.println("--------------------------------------");
-
     }
 }

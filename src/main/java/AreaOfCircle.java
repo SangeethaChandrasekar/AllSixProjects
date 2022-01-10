@@ -1,16 +1,20 @@
 class AreaOfCircle {
-    public static void AreaOfCircle(int radius){
+    public static double area(int radius){
         double area;
         System.out.println("Enter the radius of the circle ::"+radius);
         area = (3.14*radius*radius);
         System.out.println("Area of the circle is ::" + area);
+        return area;
     }
-}
-class Square extends AreaOfCircle{
-    public static void AreaOfSquare(int radius){
+    public static double area(int base,int height){
         double area;
-        System.out.println("Enter the side of the Square ::"+radius);
-        area=radius*radius;
-        System.out.println("Area of the square is ::" + area);
+        area=0.5*base*height;
+        System.out.println("Area of the Triangle is ::" + area);
+        return area;
+    }
+    public static double area(double length,double width){
+        double area=length*width;
+        System.out.println("Area of rectangle:"+area);
+        return area;
     }
 }

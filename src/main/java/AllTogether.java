@@ -1,16 +1,17 @@
 
 public class AllTogether {
     public static void main(String[] args) {
-        BodyMassIndex.BodyMassIndex();
+        BodyMassIndex.bodyMassIndex();
         System.out.println("--------------------------------------");
-        BiggestNumber.BiggestNumber();
+        BiggestNumber.biggestNumber();
         System.out.println("--------------------------------------");
-        ArmstrongNumber.ArmstrongNumber();
+        ArmstrongNumber.armstrongNumber();
         System.out.println("--------------------------------------");
-        UTC.UTC();
+        UTC.uTC();
         System.out.println("--------------------------------------");
-        AreaOfCircle.AreaOfCircle(2);
+        AreaOfCircle.area(2);
         System.out.println("--------------------------------------");
-        Square.AreaOfSquare(2);
+        AreaOfCircle.area(2,4);
+        AreaOfCircle.area(2.0,6.0);
     }
 }

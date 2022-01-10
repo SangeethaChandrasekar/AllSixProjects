@@ -1,5 +1,5 @@
 class ArmstrongNumber{
-    public static void ArmstrongNumber(){
+    public static int armstrongNumber(){
         int number=1634,temp, remainder, result=0;
         temp=number;
         while (temp!=0)
@@ -12,5 +12,6 @@ class ArmstrongNumber{
             System.out.println(number + " is an Armstrong number");
         else
             System.out.println(number + " is not an Armstrong number");
+        return number;
     }
 }

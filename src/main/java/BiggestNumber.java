@@ -1,9 +1,10 @@
 class BiggestNumber {
-    public static void BiggestNumber() {
+    public static int biggestNumber() {
         int[] arr = new int[]{4, 3, 9, 11, 1, 2};
-        int temp = 0;
+        int temp;
         System.out.println("Elements of original array: ");
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++)
+        {
             System.out.print(arr[i] + " ");
         }
         for (int i = 0; i < arr.length; i++) {
@@ -21,6 +22,7 @@ class BiggestNumber {
             System.out.print(arr[i] + " ");
         }
         System.out.println("Largest element in array: "+arr[0]);
+        return arr[0];
     }
 
 }

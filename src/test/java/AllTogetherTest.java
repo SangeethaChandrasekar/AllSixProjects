@@ -13,7 +13,6 @@ public class AllTogetherTest {
         public void bodyMassIndexTest2 () {
         assertNotNull(BMI.bodyMassIndex());
     }
-
         @Test
         public void bodyMassIndexTest3 () {
         assertNotSame("Not same", "ABC", BMI.bodyMassIndex());

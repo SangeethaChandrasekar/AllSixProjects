@@ -1,4 +1,3 @@
-
 public class AllTogether {
     public static void main(String[] args) {
         BodyMassIndex.bodyMassIndex();

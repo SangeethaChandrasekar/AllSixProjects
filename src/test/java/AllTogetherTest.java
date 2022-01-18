@@ -67,5 +67,4 @@ public class AllTogetherTest {
     public void areaOfRectangleTest() {
         assertNotNull("NotNull",a.area(2.0,2));
     }
-
 }

@@ -11,6 +11,7 @@ import java.util.TimeZone;
         System.out.println(simpleDateFormat.format(new Date(time)));
     }
 }*/
+
 public class UTC {
     public static OffsetDateTime uTC(){
         System.out.println("IST Time is:"+new Date());

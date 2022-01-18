@@ -1,9 +1,7 @@
 import java.text.DecimalFormat;
 class BodyMassIndex {
-    static double bodyMassIndex(double weight, double height) {
-
+    public static double bodyMassIndex(double weight, double height) {
         System.out.print("Input weight in kilogram: " + weight);
-
         double a;
         System.out.print("\nInput height in meters: " + height);
         double BMI = weight / (height * height);

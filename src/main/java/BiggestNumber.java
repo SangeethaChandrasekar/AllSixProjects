@@ -1,6 +1,5 @@
 class BiggestNumber {
-    public static int biggestNumber() {
-        int[] arr = new int[]{4, 3, 9, 11, 1, 2};
+    public static int biggestNumber(int[] arr) {
         int temp;
         System.out.println("Elements of original array: ");
         for (int i = 0; i < arr.length; i++)

@@ -1,10 +1,10 @@
 public class AllTogether {
     public static void main(String[] args) {
-        BodyMassIndex.bodyMassIndex();
+        BodyMassIndex.bodyMassIndex(60.00,1.80);
         System.out.println("--------------------------------------");
-        BiggestNumber.biggestNumber();
+        BiggestNumber.biggestNumber(new int[]{4, 3, 9, 11, 1, 2});
         System.out.println("--------------------------------------");
-        ArmstrongNumber.armstrongNumber();
+        ArmstrongNumber.armstrongNumber(153);
         System.out.println("--------------------------------------");
         UTC.uTC();
         System.out.println("--------------------------------------");
